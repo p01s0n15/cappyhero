@@ -1,0 +1,25 @@
+this code has been made by using sceneBuilder fxml and inbuilt scene builder methods
+
+Made by---->Akshat Wadhera(2022057)   and Pratham Gautam(2022372)
+
+
+
+How to use this?
+1)On opening  and running HelloApplication   we go to main menu screen!
+--->
+    from there we can press start button to go main game!
+
+    ---->  Main game instructions!
+
+    1)Mouse Press for englotion of stick
+    2)mouse leave to stop enlongation
+    3) Press "w" to invert player
+    4)press save to save current number of points
+    5)if you fall down or collide while down you die
+
+    sent to gameover!!!!
+    1) press high score points to view the updated saved highscore!!!
+    2)select to go main menu or game
+
+
+    Thanks and regards!

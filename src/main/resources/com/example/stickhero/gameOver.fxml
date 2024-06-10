@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="998.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stickhero.MenuController">
+   <children>
+        <ImageView fitHeight="600.0" fitWidth="1000.0">
+            <image>
+                <Image url="@Menu%20screen.png" />
+            </image>
+        </ImageView>
+         <Text fontSmoothingType="LCD" layoutX="-106.0" layoutY="59.0" strokeLineCap="ROUND" strokeType="INSIDE" text="Game Over" textAlignment="CENTER" wrappingWidth="605.9843444824219">
+             <font>
+                 <Font name="Rockwell" size="48.0" />
+             </font>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8799999952316284" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8026315569877625" green="0.026011208072304726" blue="0.026011208072304726" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+         <cursor>
+            <Cursor fx:constant="SW_RESIZE" />
+         </cursor>
+         <effect>
+            <Glow />
+         </effect>
+         </Text>
+   
+                  <Button layoutX="137.0" layoutY="399.0" onAction="#switchToScene2" prefHeight="56.0" prefWidth="178.0" text="Play Again" textFill="#615656" textOverrun="WORD_ELLIPSIS">
+             <font>
+                 <Font name="STXingkai" size="26.0" />
+             </font>
+         <effect>
+            <Glow />
+         </effect>
+         </Button>
+      <Button layoutX="601.0" layoutY="405.0" onAction="#switchToScene1" prefHeight="56.0" prefWidth="178.0" text="Main Menu" textFill="#615656" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="STXingkai" size="26.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Button>
+      <Text fontSmoothingType="LCD" layoutX="-92.0" layoutY="195.0" strokeLineCap="ROUND" strokeType="INSIDE" text="High Score:" textAlignment="CENTER" wrappingWidth="477.984375">
+         <font>
+            <Font name="Rockwell" size="48.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8799999952316284" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.12631578743457794" green="0.015438596718013287" blue="0.015438596718013287" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+         <cursor>
+            <Cursor fx:constant="SW_RESIZE" />
+         </cursor>
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+      <Text fx:id="score" fontSmoothingType="LCD" layoutX="-102.0" layoutY="252.0" onMouseClicked="#loadScore" strokeLineCap="ROUND" strokeType="INSIDE" text="Click here" textAlignment="CENTER" wrappingWidth="477.984375">
+         <font>
+            <Font name="Rockwell" size="48.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.9601769742712509" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8799999952316284" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.22894737124443054" green="0.9157894849777222" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+         <cursor>
+            <Cursor fx:constant="SW_RESIZE" />
+         </cursor>
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>
